@@ -36,6 +36,7 @@ const CommentDialog = ({ open, comments, closeHandler }) => {
             backgroundColor: "#272626",
             padding: "6px",
           }}
+          Hello
         >
           <Toolbar>
             <IconButton

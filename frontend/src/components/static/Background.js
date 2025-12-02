@@ -31,11 +31,7 @@ const Background = (props) => {
               benefits of our complaint registration system today.
             </span>
           </div>
-          <img
-            alt="This will have college"
-            src="https://cbit.ac.in/wp-content/uploads/2019/01/CBIT.jpg"
-            className="home-details-image"
-          />
+          
         </div>
       </div>
       <div className="home-features">
@@ -202,7 +198,7 @@ const Background = (props) => {
         <footer className="home-footer1">
           <div className="home-container33">
             <span className="home-text61">
-              © 2023 Complaint Registration Company, All Rights Reserved.
+              © 2025 Complaint Registration Company, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
               <svg viewBox="0 0 950.8571428571428 1024" className="home-icon10">

@@ -19,20 +19,7 @@ const Tabs = () => {
   return (
     <Box sx={{ flexGrow: 1, display: { md: "flex" }, marginLeft: "100px", justifyContent: "flex-end", marginRight: '8px' }}>
       <Stack spacing={1} direction="row">
-        {authContext.role === "student" && (
-          <Button
-            variant="outlined"
-            className={classes.noTransform}
-            color="inherit"
-          >
-            <Link
-              to="/complaints"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              All Active Complaints
-            </Link>
-          </Button>
-        )}
+        
         {authContext.role === "student" && (
           <Button
             variant="outlined"
